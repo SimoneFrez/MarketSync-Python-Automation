@@ -13,11 +13,18 @@ st.title("MarketSync - Monitor de Automação")
 st.markdown("Interface de monitoramento para integridade de inventário e sincronização de dados.")
 
 def carregar_dados():
-    """Realiza o fetch dos dados persistidos no banco de dados local."""
-    conn = sqlite3.connect(DB_PATH)
-    df = pd.read_sql_query("SELECT * FROM produtos", conn)
-    conn.close()
-    return df
+    """Tenta ler o banco de dados. Se não existir, gera dados simulados para demonstração."""
+    if os.path.exists(DB_PATH):
+        conn = sqlite3.connect(DB_PATH)
+        df = pd.read_sql_query("SELECT * FROM produtos", conn)
+        conn.close()
+        return df
+    else:
+        return pd.DataFrame({
+            'nome': ['Exemplo Produto A', 'Exemplo Produto B'],
+            'preco': [99.90, 149.00],
+            'estoque': [10, 5]
+        })
 
 try:
     df = carregar_dados()
