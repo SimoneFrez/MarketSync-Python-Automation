@@ -1,0 +1,21 @@
+2026-01-02 17:57:08,870 - INFO - Sessão de automação iniciada.
+2026-01-02 17:57:08,878 - INFO - Sucesso: Produto Camisa Polo sincronizado. (API: 200)
+2026-01-02 17:57:09,384 - INFO - Sucesso: Produto Calça Jeans sincronizado. (API: 200)
+2026-01-02 17:57:09,890 - INFO - Sucesso: Produto Tênis Esportivo sincronizado. (API: 200)
+2026-01-02 17:57:10,391 - WARNING - Erro de Validação: Produto Produto Errado com preço negativo (-10.0).
+2026-01-02 17:57:10,892 - INFO - Sessão de automação finalizada.
+
+2026-01-02 18:05:27,494 - INFO - Sessão iniciada.
+2026-01-02 18:05:27,501 - INFO - Sincronizado: Camisa Polo
+2026-01-02 18:05:27,806 - INFO - Sincronizado: Calça Jeans
+2026-01-02 18:05:28,113 - INFO - Sincronizado: Tênis Esportivo
+2026-01-02 18:05:28,413 - WARNING - Dados Inválidos: Erro Preço | Preço: -5.0 | Estoque: 5
+2026-01-02 18:05:28,714 - WARNING - Dados Inválidos: Erro Estoque | Preço: 100.0 | Estoque: -1
+2026-01-02 18:05:29,015 - INFO - Finalizado. Sucessos: 3, Erros: 2
+2026-01-02 18:12:03,200 - INFO - Sessão iniciada.
+2026-01-02 18:12:03,213 - INFO - Sincronizado: Camisa Polo
+2026-01-02 18:12:03,520 - INFO - Sincronizado: Calça Jeans
+2026-01-02 18:12:03,825 - INFO - Sincronizado: Tênis Esportivo
+2026-01-02 18:12:04,126 - WARNING - Dados Inválidos: Erro Preço | Preço: -5.0 | Estoque: 5
+2026-01-02 18:12:04,427 - WARNING - Dados Inválidos: Erro Estoque | Preço: 100.0 | Estoque: -1
+2026-01-02 18:12:04,728 - INFO - Finalizado. Sucessos: 3, Erros: 2
