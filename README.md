@@ -1,5 +1,5 @@
-📊 MarketSync: Automação de Inventário e Dashboard de Monitoramento
-O MarketSync é uma solução robusta de automação de back-end desenvolvida para otimizar a sincronização de estoques e preços em operações de Marketplace. O projeto integra processamento de dados com Python, persistência em SQLite e uma interface visual para tomada de decisão em tempo real.
+📊 SincroEstoque: Automação de Inventário e Dashboard de Monitoramento
+O SincroEstoque é uma solução robusta de automação de back-end desenvolvida para otimizar a sincronização de estoques e preços em operações de Marketplace. O projeto integra processamento de dados com Python, persistência em SQLite e uma interface visual para tomada de decisão em tempo real.
 
 🚀 Funcionalidades
 Automação de Sincronização: Processamento em lote de produtos com simulação de integração via API.
